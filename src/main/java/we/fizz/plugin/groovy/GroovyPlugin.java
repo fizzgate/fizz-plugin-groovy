@@ -45,7 +45,7 @@ public class GroovyPlugin extends AbstractFizzPlugin<RouterConfig, PluginConfig>
         } catch (Exception e) {
             log.error(e.getMessage(), e);
         }
-        return WebUtils.buildDirectResponse(exchange, HttpStatus.BAD_GATEWAY, null, "");
+        return WebUtils.response(exchange, HttpStatus.BAD_GATEWAY, null, "");
     }
 
     @Data
