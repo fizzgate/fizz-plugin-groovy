@@ -26,7 +26,7 @@ public class GroovyPlugin extends AbstractFizzPlugin<RouterConfig, PluginConfig>
 
     @Override
     public String pluginName() {
-        return "groovyPlugin";
+        return "groovy-plugin";
     }
 
     @Override
