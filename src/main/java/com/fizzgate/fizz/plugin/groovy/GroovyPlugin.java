@@ -1,4 +1,4 @@
-package we.fizz.plugin.groovy;
+package com.fizzgate.fizz.plugin.groovy;
 
 import lombok.Data;
 import lombok.extern.slf4j.Slf4j;
@@ -6,14 +6,14 @@ import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
-import we.plugin.FizzPluginFilterChain;
-import we.plugin.core.filter.AbstractFizzPlugin;
-import we.plugin.core.filter.config.FizzConfig;
-import we.util.JacksonUtils;
-import we.util.WebUtils;
+import com.fizzgate.plugin.FizzPluginFilterChain;
+import com.fizzgate.plugin.core.filter.AbstractFizzPlugin;
+import com.fizzgate.plugin.core.filter.config.FizzConfig;
+import com.fizzgate.util.JacksonUtils;
+import com.fizzgate.util.WebUtils;
 
-import static we.fizz.plugin.groovy.GroovyPlugin.PluginConfig;
-import static we.fizz.plugin.groovy.GroovyPlugin.RouterConfig;
+import static com.fizzgate.fizz.plugin.groovy.GroovyPlugin.PluginConfig;
+import static com.fizzgate.fizz.plugin.groovy.GroovyPlugin.RouterConfig;
 
 /**
  * groovy脚本插件

@@ -1,10 +1,10 @@
-package we.fizz.plugin.groovy.handler;
+package com.fizzgate.fizz.plugin.groovy.handler;
 
+import com.fizzgate.fizz.plugin.groovy.IHandler;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
-import we.fizz.plugin.groovy.IHandler;
-import we.util.WebUtils;
+import com.fizzgate.util.WebUtils;
 
 public class CurrentTime implements IHandler {
     private static final String RES = "{\"code\":0,\"msg\":null,\"result\":%s}";

@@ -1,8 +1,8 @@
-package we.fizz.plugin.groovy;
+package com.fizzgate.fizz.plugin.groovy;
 
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
-import we.plugin.FizzPluginFilterChain;
+import com.fizzgate.plugin.FizzPluginFilterChain;
 
 /**
  * @author huanghua

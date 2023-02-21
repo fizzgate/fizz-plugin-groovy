@@ -50,7 +50,7 @@ package we.fizz.plugin.groovy.handler;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.server.ServerWebExchange;
 import reactor.core.publisher.Mono;
-import we.fizz.plugin.groovy.IHandler;
+import com.fizzgate.fizz.plugin.groovy.IHandler;
 import we.util.WebUtils;
 
 public class CurrentTime implements IHandler {

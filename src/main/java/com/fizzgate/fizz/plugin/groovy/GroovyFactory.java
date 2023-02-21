@@ -1,4 +1,4 @@
-package we.fizz.plugin.groovy;
+package com.fizzgate.fizz.plugin.groovy;
 
 import groovy.lang.GroovyClassLoader;
 import lombok.extern.slf4j.Slf4j;
@@ -6,7 +6,7 @@ import org.apache.commons.codec.digest.DigestUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.context.ApplicationContext;
-import we.Fizz;
+import com.fizzgate.Fizz;
 
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ConcurrentMap;
